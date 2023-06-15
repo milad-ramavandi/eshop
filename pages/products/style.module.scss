@@ -1,0 +1,10 @@
+.mainContainer {
+  margin: 20px 0;
+}
+.outerCardContainer{
+  padding: 0 !important;
+}
+.outerCardContainer:hover{
+  z-index: 1;
+  box-shadow: 1px 1px 10px rgb(163, 174, 205);
+}

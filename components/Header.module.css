@@ -1,0 +1,293 @@
+.outerContainer {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 2px solid rgb(206, 202, 202);
+}
+
+.headerContainer {
+  width: 95%;
+  margin: 5px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  margin-top: 5px;
+}
+.container1 {
+  flex: 60%;
+}
+.container2 {
+  flex: 40%;
+  align-items: center;
+  justify-content: end;
+}
+.item {
+  display: flex;
+}
+.subContainer1_1 {
+  margin-left: 15px;
+}
+.subContainer1_2 {
+  position: relative;
+  flex: 60%;
+}
+.subContainer2_1 {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 7px;
+}
+.subContainer2_3 {
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 7px;
+  border: 1px solid rgb(222, 218, 218);
+}
+.subContainer2_1_showBackGround {
+  background-color: rgb(219, 182, 187);
+}
+.subContainer2_1_noBorder {
+  border: none;
+}
+.subContainer2_1_Border {
+  border: 1px solid rgb(222, 218, 218);
+}
+.subContainer2_2 {
+  position: relative;
+  margin-right: 20px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TbLogin {
+  font-size: 25px;
+  position: relative;
+  right: -15px;
+}
+.HiOutlineUser {
+  font-size: 24px;
+}
+.MdOutlineArrowDropDown {
+  font-size: 20px;
+}
+.menu {
+  width: 250px;
+  background-color: white;
+  border: 1px solid rgb(231, 224, 224);
+  border-radius: 8px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.hideMenu {
+  display: none;
+}
+.showMenu {
+  display: block;
+}
+.ul {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.bigLinkContainer {
+  padding: 15px 8px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.bigLinkContainer:hover,
+.smallLinkContainer:hover {
+  background-color: rgb(246, 241, 241);
+}
+.smallLinkContainer:nth-last-child(1) {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.rightInnerContainer {
+  flex: 10%;
+  position: relative;
+  top: -4px;
+}
+.leftInnerContainer {
+  flex: 80%;
+  padding-bottom: 14px;
+  border-bottom: 1px solid rgb(246, 241, 241);
+}
+.bigLinkContainer,
+.smallLinkContainer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.userCircleIcon {
+  font-size: 32px;
+  margin-left: 8px;
+}
+.arrowLeftIcon {
+  position: absolute;
+  left: 10px;
+  font-size: 20px;
+}
+.smallLinkContainer {
+  padding: 7px 8px 0;
+}
+.icon {
+  font-size: 22px;
+  margin-left: 10px;
+}
+.firstIcon {
+  color: blueviolet;
+}
+.TfiShoppingCart {
+  font-size: 22px;
+  position: relative;
+  top: 4px;
+}
+.span {
+  font-size: 13px;
+}
+.sabteNam {
+  margin-right: 4px;
+}
+.input {
+  width: 100%;
+  padding: 8px 50px 8px 4px;
+  border: none;
+  border-radius: 7px;
+  outline: none;
+  background-color: rgb(231, 224, 224);
+}
+.search {
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+.delete {
+  font-size: 22px;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  visibility: hidden;
+}
+.subContainer2_4{
+  color: rgb(208, 204, 204);
+  font-size: 20px;
+}
+.TopLogo{
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .TopBanner{
+    display: none;
+  }
+  .TopLogo{
+    display: block;
+  }
+  .TopLogoImage{
+    display: block;
+    margin: 5px auto;
+  }
+  .container1 {
+    flex: 80%;
+  }
+  .container2 {
+    flex: 20%;
+  }
+  .logo {
+    width: 60px;
+    margin-top: unset;
+  }
+  .subContainer1_1 {
+    display: none;
+  }
+  .input {
+    padding: 4px 25px 4px 4px;
+    font-size: 10px;
+  }
+  .search {
+    font-size: 12px;
+    top: 9px;
+    right: 9px;
+  }
+  .delete {
+    font-size: 12px;
+    top: 9px;
+    left: 3px;
+  }
+  .subContainer2_1 {
+    padding: 3px;
+    margin-left: 5px;
+  }
+  .TbLogin {
+    font-size: 16px;
+    right: 10px;
+    margin-left: 15px !important;
+  }
+  .span {
+    font-size: 10px;
+  }
+  .sabteNam {
+    display: none;
+  }
+  .subContainer2_2 {
+    margin-right: 7px;
+  }
+  .subContainer2_3 {
+    padding: 3px;
+    margin-left: 5px;
+    border: none !important;
+  }
+  .TfiShoppingCart {
+    font-size: 16px;
+    position: relative;
+    top: 4px;
+  }
+  .HiOutlineUser {
+    font-size: 16px;
+  }
+  .MdOutlineArrowDropDown {
+    font-size: 16px;
+  }
+  .menu {
+    width: 150px;
+  }
+  .bigLinkContainer {
+    padding: 11px 6px 0;
+  }
+  .userCircleIcon {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .arrowLeftIcon {
+    left: 10px;
+    top: 16px;
+    font-size: 16px;
+  }
+  .smallLinkContainer {
+    padding: 5px 6px 0;
+  }
+  .matn {
+    font-size: 10px;
+  }
+  .icon {
+    font-size: 16px;
+  }
+}

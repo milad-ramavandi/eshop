@@ -1,0 +1,27 @@
+.PicturesContainer {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+}
+.leftImageContainer,.rightImageContainer {
+  flex: 50%;
+  padding: 8px;
+}
+.linkContainer{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.img {
+  position: relative !important;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width:768px) {
+    .PicturesContainer{
+        flex-direction: column;
+    }
+    .leftImageContainer, .rightImageContainer{
+        flex: 100%;
+    }
+}

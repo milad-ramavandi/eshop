@@ -1,0 +1,40 @@
+.sevenIconsContainer{
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    display: flex;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.span{
+    font-size: 12px;
+    margin-top: 8px;
+}
+@media only screen and (max-width:768px) {
+    .sevenIconsContainer{
+        flex-wrap: wrap;
+    }
+    .item{
+        flex: 30%;
+        justify-content: center;
+        margin-bottom: 10px !important;
+        margin-left: 8px !important;
+    }
+    .img{
+        width: 30px;
+        height: 30px;
+    }
+    .span{
+        font-size: 9px;
+        margin-top: 6px;
+        white-space: nowrap;
+    }
+}

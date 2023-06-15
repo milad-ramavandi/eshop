@@ -1,0 +1,30 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.para {
+  font-size: 18px;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(140, 219, 192) !important;
+  font-size: 14px;
+  margin: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+  .para {
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .link {
+    font-size: 10px;
+  }
+  .img {
+    width: 200px;
+    height: 150px;
+  }
+}

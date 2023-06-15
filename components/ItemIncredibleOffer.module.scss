@@ -1,0 +1,173 @@
+.ItemIncredibleOfferContainer {
+  width: 99%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(218, 218, 218);
+  direction: rtl !important;
+}
+.productName {
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 2em;
+  text-align: center;
+}
+
+.priceContainer {
+  height: 3em;
+  color: rgb(92, 209, 13);
+  line-height: 1.5em;
+  margin-top: 5px;
+  text-align: center;
+}
+.priceDetail {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 5px;
+}
+.priceBeforeOff {
+  color: black;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 0.1em;
+}
+.offPercent {
+  text-align: center;
+  width: 3em;
+  border-radius: 1em;
+  height: 1.7em;
+  border-style: none;
+  background-color: #22a51d;
+  color: rgb(241, 235, 235);
+  margin-top: 5px;
+}
+.incredibleOfferImageContainer {
+  text-align: center;
+  padding-top: 15px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 300px) {
+  .ItemIncredibleOfferContainer {
+    padding: 0 2px;
+    height: 180px;
+  }
+  .incredibleOfferImage {
+    width: 50px;
+    margin: 0 auto;
+  }
+  .priceContainer {
+    font-size: 7px;
+    margin-left: 3px;
+  }
+  .productName {
+    font-size: 7px;
+  }
+  .indexImageUrl {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  .offPercent {
+    font-size: 7px;
+  }
+  .priceBeforeOff {
+    font-size: 7px;
+  }
+  .priceWithDiscount {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (min-width: 300px) {
+  .ItemIncredibleOfferContainer {
+    padding: 0 5px;
+    height: 200px;
+  }
+  .incredibleOfferImage {
+    width: 60px;
+    margin: 0 auto;
+  }
+  .priceContainer {
+    font-size: 8px;
+    margin-left: 4px;
+  }
+  .productName {
+    font-size: 8px;
+  }
+  .indexImageUrl {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+  }
+  .offPercent {
+    font-size: 8px;
+  }
+  .priceBeforeOff {
+    font-size: 8px;
+  }
+  .priceWithDiscount {
+    font-size: 8px;
+  }
+}
+
+// @media only screen and (min-width: 480px) {
+//   .ItemIncredibleOfferContainer {
+//     height: 200px;
+//   }
+//   .incredibleOfferImage {
+//     width: 60px;
+//     margin: 0 auto;
+//   }
+//   .priceContainer {
+//     font-size: 8px;
+//   }
+//   .productName {
+//     font-size: 8px;
+//   }
+//   .indexImageUrl {
+//     width: 60px;
+//     height: 60px;
+//     margin: 0 auto;
+//   }
+//   .offPercent {
+//     font-size: 8px;
+//   }
+//   .priceBeforeOff {
+//     font-size: 8px;
+//   }
+//   .priceWithDiscount {
+//     font-size: 8px;
+//   }
+// }
+
+@media only screen and (min-width: 768px) {
+  .ItemIncredibleOfferContainer {
+    padding: 0 10px;
+    height: 300px;
+  }
+  .incredibleOfferImage {
+    width: 100px;
+    margin: 0 auto;
+  }
+  .priceContainer {
+    font-size: 13px;
+    margin-left: unset;
+  }
+  .productName {
+    font-size: 12.9px;
+  }
+  .indexImageUrl {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+  .offPercent {
+    font-size: 0.7em;
+  }
+  .priceBeforeOff {
+    font-size: 13px;
+  }
+  .priceWithDiscount {
+    font-size: 13px;
+  }
+}

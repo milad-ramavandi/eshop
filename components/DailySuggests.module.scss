@@ -1,0 +1,45 @@
+.dailySuggests {
+  width: 90%;
+  margin: 50px auto;
+  border: 2px solid rgb(244, 241, 241);
+  border-radius: 20px;
+  padding: 20px 15px;
+}
+.headerContainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header {
+  font-size: 26px;
+  color: rgb(214, 36, 36);
+  margin-bottom: 0;
+}
+.link{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(112, 185, 161) !important;
+}
+.dailySuggestsContainer {
+  position: relative;
+  margin-top: 60px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .dailySuggests {
+    margin: 15px auto;
+    padding: 13px 8px;
+  }
+  .dailySuggestsContainer{
+    margin-top: 25px;
+  }
+ .header{
+  font-size: 14px;
+  white-space: nowrap;
+ }
+ .link{
+  font-size: 10px;
+ }
+}

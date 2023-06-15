@@ -1,0 +1,46 @@
+.rightNavContainer{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    top: 70%;
+    right: 40px;
+    background-color: white !important;
+    border: 1px solid rgb(187, 183, 183) !important;
+    border-radius: 50% !important;
+}
+.arrow{
+    color: black;
+    opacity: 0.8;
+    font-size: 20px;
+}
+
+.showArrow{
+    display: block;
+}
+.hideArrow{
+    display: none;
+}
+
+@media only screen and (max-width:768px) {
+    .rightNavContainer{
+        right: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    .arrow{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .rightNavContainer{
+        top: 60%;
+        right: 7px;
+        width: 13px;
+        height: 13px;
+    }
+    .arrow{
+        font-size: 8px;
+    }
+}

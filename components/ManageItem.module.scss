@@ -1,0 +1,22 @@
+
+.manageItem {
+  width: 120px;
+  padding: 5px 8px;
+  background-color: rgb(244, 241, 241);
+  border: 1px solid rgb(178, 173, 173);
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px rgb(178, 173, 173);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(233, 67, 67);
+  font-size: 18px;
+}
+.BiPlus {
+  color: rgb(241, 188, 188) !important;
+}

@@ -1,0 +1,34 @@
+.categories{
+    width: 90%;
+    margin: 50px auto;
+}
+.headerContainer{
+    text-align: center;
+    font-size: 26px;
+}
+.categoriesContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.linkContainer{
+    margin: 20px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.categoryName{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+@media only screen and (max-width:768px) {
+    .headerContainer{
+        font-size: 18px;
+    }
+}

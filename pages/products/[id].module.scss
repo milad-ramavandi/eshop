@@ -1,0 +1,149 @@
+.container {
+  margin: 30px auto;
+  padding: 15px;
+}
+.secondCol {
+  text-align: justify;
+}
+.name {
+  font-size: 20px;
+}
+.description {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.secondRow {
+  margin-bottom: 15px;
+}
+.outerContainer {
+  background-color: rgb(244, 241, 241);
+  border-radius: 15px;
+  padding: 15px;
+  height: 180px;
+}
+.priceContainer {
+  height: 3em;
+  color: rgb(92, 209, 13);
+  line-height: 1.5em;
+  text-align: center;
+}
+.priceDetail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.gheimat {
+  font-size: 16px;
+  text-align: center;
+}
+.namojod {
+  text-align: center;
+  color: rgb(144, 141, 141);
+  margin: 10px auto;
+}
+.ring {
+  font-size: 20px;
+}
+.priceBeforeOff {
+  color: black;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 0.1em;
+  font-size: 11px;
+}
+.offPercent {
+  text-align: center;
+  width: 3em;
+  font-size: 0.9em;
+  border-radius: 1em;
+  height: 1.7em;
+  border-style: none;
+  background-color: #22a51d;
+  color: rgb(241, 235, 235);
+}
+.button {
+  width: 100%;
+  margin: 20px 0;
+}
+
+.manageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 15px auto;
+}
+.infoContainer {
+  flex: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  top: 5px;
+  right: 15px;
+}
+.para {
+  font-size: 15px;
+}
+.observe {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linkContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infoContainer p {
+    margin-bottom: 0 !important;
+}
+.link{
+  font-size: 15px;
+  margin-right: 5px;
+  color: rgb(118, 187, 163) !important;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width:768px) {
+  .observe{
+    font-size: 10px;
+  }
+  .link{
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    background-color: white;
+    margin: 15px auto;
+    padding: 8px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .description {
+    font-size: 12px;
+    line-height: 1.8;
+  }
+  .secondRow {
+    margin-bottom: 8px;
+  }
+
+  .gheimat {
+    font-size: 12px;
+  }
+  .priceContainer {
+    height: 3em;
+    color: rgb(92, 209, 13);
+    line-height: 1.5em;
+  }
+  .priceBeforeOff {
+    font-size: 12px;
+  }
+  .offPercent {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,74 @@
+.cardContainer{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(218, 218, 218);
+  text-align: center;
+  padding: 0 15px;
+}
+.productName {
+  font-size: 15px;
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: 2em;
+  text-align: center;
+}
+
+.priceContainer {
+  height: 3em;
+  color: rgb(92, 209, 13);
+  line-height: 1.5em;
+  margin-top: 10px;
+  text-align: center;
+}
+.priceDetail {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.priceBeforeOff {
+  color: black;
+  text-decoration-line: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 0.1em;
+  font-size: 11px;
+}
+.offPrcent {
+  text-align: center;
+  width: 3em;
+  font-size: 0.9em;
+  border-radius: 1em;
+  height: 1.7em;
+  border-style: none;
+  background-color: #22a51d;
+  color: rgb(241, 235, 235);
+}
+.incredibleOfferImageContainer {
+  text-align: center;
+  padding-top: 15px;
+  height: 40px;
+}
+
+
+@media only screen and (max-width:768px) {
+  .incredibleOfferImage{
+    width: 100px;
+  }
+  .productName{
+    font-size: 10px;
+  }
+  .indexImageUrl{
+    width: 150px;
+    height: 150px;
+  }
+  .offPrcent {
+    font-size: 0.6em;
+  }
+  .priceBeforeOff{
+    font-size: 9px;
+  }
+  .priceWithDiscount{
+    font-size: 12px;
+  }
+}
